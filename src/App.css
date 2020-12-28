@@ -1,0 +1,568 @@
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+#components-layout-demo-top .logo {
+  float: right!important;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.logo {
+  float: left;
+  width: 120px;
+  height: 50px;
+  margin: 16px 24px 16px 0;
+ 
+}
+
+.main-services-box {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.2);
+  padding: 25px 20px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  overflow: hidden;
+  width: 264px;
+  margin-left: 30px;
+}
+.row{
+  width: 1000px;
+} 
+
+
+
+.ant-layout-header .ant-menu {
+  line-height: inherit;
+  float:right; 
+  width: 950px;
+  margin-right: -50px;
+}
+.bklogo{
+  height: 90px;
+  margin-left: 50px;
+  margin-right: 350px;
+  margin-top: 10px;
+}
+.ant-layout-header .ant-menu {
+  line-height: inherit;
+  width: 1441px;
+}
+body {
+  margin: 0;
+  color: rgba(0,0,0,.85);
+  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  background-color: #fff;
+  -webkit-font-feature-settings: "tnum";
+  font-feature-settings: "tnum";
+}
+
+.ant-layout-header .ant-menu {
+  line-height: inherit;
+  float: right;
+  padding-right: 80px;
+  height: 100px;
+  padding: 0 50px;
+  color: rgba(103, 161, 56, 0.85);
+  line-height: 64px;
+  background: #ffffff;
+}
+
+.heading{
+  margin-top: 40px;
+  text-align: center;
+  display: block;
+  margin-bottom: 5px;
+  color: #19ce67;
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
+}
+.section-services {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 600;
+  color: #121521;
+}
+
+/*================================================
+Main Services Area CSS
+=================================================*/
+.main-services-area {
+  padding-bottom: 70px;
+  position: relative;
+  z-index: 1;
+}
+
+.main-services-box {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.2);
+          box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.2);
+  padding: 25px 20px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.main-services-box .icon {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+  background-color: #19ce67;
+  color: #ffffff;
+  font-size: 25px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-services-box h3 {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-bottom: 0;
+  position: relative;
+  padding-bottom: 5px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.main-services-box h3 a {
+  color: #121521;
+}
+
+.main-services-box h3::before {
+  width: 0;
+  height: 1px;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-services-box p {
+  line-height: 1.7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.main-services-box::before {
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #19ce67;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-services-box::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 10px solid #ffffff;
+  left: -80px;
+  bottom: -80px;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.15;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-services-box:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+.main-services-box:hover::before {
+  width: 100%;
+}
+
+.main-services-box:hover .icon {
+  background-color: #49d685;
+  color: #ffffff;
+}
+
+.main-services-box:hover h3 a {
+  color: #ffffff;
+}
+
+.main-services-box:hover h3::before {
+  width: 80px;
+}
+
+.main-services-box:hover p {
+  color: #ffffff;
+}
+
+.main-services-box:hover::after {
+  left: -50px;
+  bottom: -50px;
+}
+
+.shape2 {
+  position: absolute;
+  right: 0;
+  bottom: -120px;
+  z-index: -1;
+  -webkit-animation: moveBounce 5s linear infinite;
+          animation: moveBounce 5s linear infinite;
+}
+
+.shape2 img {
+  opacity: .70;
+}
+
+@-webkit-keyframes moveBounce {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+.section-title {
+  text-align: center;
+  max-width: 700px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+.section-title span {
+  display: block;
+  margin-bottom: 5px;
+  color: #19ce67;
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
+}
+
+.section-title h2 {
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.section-title p {
+  max-width: 520px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@keyframes moveBounce {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+/*================================================
+About Area CSS
+=================================================*/
+.about-area {
+  padding-right: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-image {
+  padding-left: 174px;
+  width: 100%;
+  height: 100%;
+  /* background-image: url(../img/about-img1.jpg); */
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-image img {
+  display: none;
+}
+
+.about-content {
+  max-width: 555px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 150px;
+}
+
+.about-content span {
+  display: block;
+  margin-bottom: 5px;
+  color: #19ce67;
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
+}
+
+.about-content h2 {
+  margin-bottom: 0;
+  line-height: 1.3;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.about-content p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.about-content ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.about-content ul li {
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 34px;
+  font-family: "Rubik", sans-serif;
+}
+
+.about-content ul li i {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+  background-color: #d2f5e1;
+  color: #19ce67;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: inline-block;
+  font-size: 11px;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.about-content ul li:hover i {
+  background-color: #19ce67;
+  color: #ffffff;
+}
+
+.about-content ul li:last-child {
+  margin-bottom: 0;
+}
+
+.about-content .btn {
+  margin-top: 30px;
+}
+
+
+/*================================================
+Appointment Area CSS
+=================================================*/
+.appointment-area {
+  position: relative;
+  z-index: 1;
+  /* background-image: url(../img/appointment-bg.jpg); */
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.appointment-content {
+ 
+  background-color: #ffffff;
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: 100px;
+}
+.appointment-content form .form-group {
+  width: 303px;
+  position: relative;
+  padding-left: 55px;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.appointment-content::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  background: #ffffff;
+  width: 96%;
+  opacity: .62;
+  height: 50%;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.appointment-content .sub-title {
+  display: block;
+  margin-bottom: 5px;
+  color: #19ce67;
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
+}
+
+.appointment-content h2 {
+  margin-bottom: 0;
+  max-width: 520px;
+  line-height: 1.3;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.appointment-content form {
+  margin-top: 5px;
+}
+
+
+
+.appointment-content form .form-group .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #19ce67;
+  font-size: 35px;
+}
+
+.appointment-content form .form-group label {
+  display: block;
+  text-transform: uppercase;
+  color: #7d7d7d;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.appointment-content form .form-group .form-control {
+ 
+  border: none;
+  height: auto;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 17px;
+  font-weight: 600;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 8px;
+}
+
+.appointment-content form .form-group .form-control::-webkit-input-placeholder {
+  color: #121521;
+}
+
+.appointment-content form .form-group .form-control:-ms-input-placeholder {
+  color: #121521;
+}
+
+.appointment-content form .form-group .form-control::-ms-input-placeholder {
+  color: #121521;
+}
+
+.appointment-content form .form-group .form-control::placeholder {
+  color: #121521;
+}
+
+.appointment-content form .form-group .form-control:focus {
+  border-color: #19ce67;
+  padding-left: 2px;
+}
+
+.appointment-content form .form-group .nice-select {
+  background-color: transparent;
+  color: #121521;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  height: unset;
+  line-height: initial;
+  padding: 0 35px 8px 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.appointment-content form .form-group .nice-select .list {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 29px 0 rgba(102, 102, 102, 0.1);
+          box-shadow: 0 0 29px 0 rgba(102, 102, 102, 0.1);
+  border-radius: 0;
+  margin-top: 0;
+  width: 100%;
+  height: 260px;
+  overflow-y: scroll;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.appointment-content form .form-group .nice-select .list .option {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.appointment-content form .form-group .nice-select .list .option:hover {
+  background-color: #19ce67 !important;
+  color: #ffffff;
+}
+
+.appointment-content form .form-group .nice-select .list .option.selected {
+  background-color: transparent;
+}
+
+.appointment-content form .form-group .nice-select:after {
+  right: 0;
+  border-color: #121521;
+}
+
+.appointment-content form .submit-btn {
+  text-align: center;
+  margin-top: 35px;
+}
+
